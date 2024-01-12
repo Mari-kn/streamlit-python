@@ -8,9 +8,8 @@ a)sudo apt update
 b)sudo apt-get update
 c)sudo apt upgrade -y
 d)sudo apt install git curl unzip tar make sudo vim wget -y
-e)sudo apt install git curl unzip tar make sudo vim wget -y
-f)git clone "Your-repository"
-g)sudo apt install python3-pip
-h)pip3 install -r requirements.txt
-i)python3 -m streamlit run app.py
-j)nohup python3 -m streamlit run app.py
+e)git clone "Your-repository"
+f)sudo apt install python3-pip
+g)pip3 install -r requirements.txt
+h)python3 -m streamlit run app.py
+i)nohup python3 -m streamlit run app.py
