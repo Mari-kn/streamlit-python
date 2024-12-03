@@ -1,15 +1,33 @@
 # streamlit-python
-In this repository, I try to deploy a streamlit app that represent titanic prediction. The prediction is done by xgboost and  based on input field, it's predict if the passenger will survived or not!
-Then I deploy this project to AWS EC2 Instances.
-For deploy to AWS EC2, you have to follow this steps one by one: 
-1- Make your EC2 instance in your AWS account.
-2- Run this commands one-by-one:
-a)sudo apt update
-b)sudo apt-get update
-c)sudo apt upgrade -y
-d)sudo apt install git curl unzip tar make sudo vim wget -y
-e)git clone "Your-repository"
-f)sudo apt install python3-pip
-g)pip3 install -r requirements.txt
-h)python3 -m streamlit run app.py
-i)nohup python3 -m streamlit run app.py
+
+In this repository, I demonstrate how to deploy a Streamlit app for predicting Titanic survival. The prediction is performed using **XGBoost** based on input fields, determining whether a passenger would survive or not. This project is deployed on **AWS EC2 Instances**.
+
+## Deployment Steps on AWS EC2
+
+### 1. Set Up Your EC2 Instance
+- Make sure you have an AWS account.
+- Create and configure your EC2 instance.
+
+### 2. Run the Following Commands in Order
+
+```bash
+# Update and upgrade system packages
+sudo apt update
+sudo apt-get update
+sudo apt upgrade -y
+
+# Install necessary tools
+sudo apt install git curl unzip tar make sudo vim wget -y
+
+# Clone your repository
+git clone "Your-Repository"
+
+# Install Python and dependencies
+sudo apt install python3-pip
+pip3 install -r requirements.txt
+
+# Run the Streamlit app
+python3 -m streamlit run app.py
+
+# (Optional) Run in the background using nohup
+nohup python3 -m streamlit run app.py &
