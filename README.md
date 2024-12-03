@@ -1,5 +1,5 @@
 # streamlit-python
-In this repository, I try to deploy a streamlit app that represent titanic prediction. The prediction is done by xgboost and  based on input field, it's predict the passenger will survived or not!
+In this repository, I try to deploy a streamlit app that represent titanic prediction. The prediction is done by xgboost and  based on input field, it's predict if the passenger will survived or not!
 Then I deploy this project to AWS EC2 Instances.
 For deploy to AWS EC2, you have to follow this steps one by one: 
 1- Make your EC2 instance in your AWS account.
